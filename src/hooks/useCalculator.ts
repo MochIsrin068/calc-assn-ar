@@ -86,6 +86,10 @@ export default function useCalculator() {
     } else {
       if (actionType !== ACTION_TYPE.RESET) {
         message.error("Please select more than one value");
+      } else {
+        setInputValues(initValueInputValues);
+        setResult(0);
+        message.success("Reset success");
       }
     }
   };
