@@ -1,0 +1,842 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`tests entry pages calculator Perform snapshots test Calculator 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="bg-blue-200 flex flex-col items-center justify-center h-screen px-4 md:px-0 lg:px-0"
+      >
+        <div
+          class="w-full lg:w-1/2 rounded-t-md shadow mb-4 bg-white p-4"
+        >
+          <h1
+            class="text-center font-bold text-2xl block"
+          >
+            Calculator App
+          </h1>
+        </div>
+        <div
+          class="ant-card ant-card-bordered w-full lg:w-1/2 rounded-b-md shadow"
+        >
+          <div
+            class="ant-card-body"
+          >
+            <div>
+              <div
+                class="flex justify-between bg-gray-400 p-3 mb-3 rounded-sm"
+              >
+                <div
+                  class="ant-input-number w-full mr-4 rounded-sm"
+                >
+                  <div
+                    class="ant-input-number-handler-wrap"
+                  >
+                    <span
+                      aria-disabled="false"
+                      aria-label="Increase Value"
+                      class="ant-input-number-handler ant-input-number-handler-up"
+                      role="button"
+                      unselectable="on"
+                    >
+                      <span
+                        aria-label="up"
+                        class="anticon anticon-up ant-input-number-handler-up-inner"
+                        role="img"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          data-icon="up"
+                          fill="currentColor"
+                          focusable="false"
+                          height="1em"
+                          viewBox="64 64 896 896"
+                          width="1em"
+                        >
+                          <path
+                            d="M890.5 755.3L537.9 269.2c-12.8-17.6-39-17.6-51.7 0L133.5 755.3A8 8 0 00140 768h75c5.1 0 9.9-2.5 12.9-6.6L512 369.8l284.1 391.6c3 4.1 7.8 6.6 12.9 6.6h75c6.5 0 10.3-7.4 6.5-12.7z"
+                          />
+                        </svg>
+                      </span>
+                    </span>
+                    <span
+                      aria-disabled="false"
+                      aria-label="Decrease Value"
+                      class="ant-input-number-handler ant-input-number-handler-down"
+                      role="button"
+                      unselectable="on"
+                    >
+                      <span
+                        aria-label="down"
+                        class="anticon anticon-down ant-input-number-handler-down-inner"
+                        role="img"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          data-icon="down"
+                          fill="currentColor"
+                          focusable="false"
+                          height="1em"
+                          viewBox="64 64 896 896"
+                          width="1em"
+                        >
+                          <path
+                            d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z"
+                          />
+                        </svg>
+                      </span>
+                    </span>
+                  </div>
+                  <div
+                    class="ant-input-number-input-wrap"
+                  >
+                    <input
+                      aria-valuenow="0"
+                      autocomplete="off"
+                      class="ant-input-number-input"
+                      data-testid="number-input"
+                      placeholder="Masukkan angka"
+                      role="spinbutton"
+                      step="1"
+                      type="number"
+                      value="0"
+                    />
+                  </div>
+                </div>
+                <label
+                  class="ant-checkbox-wrapper h-full"
+                >
+                  <span
+                    class="ant-checkbox"
+                  >
+                    <input
+                      class="ant-checkbox-input"
+                      data-testid="checkbox-input"
+                      type="checkbox"
+                      value=""
+                    />
+                    <span
+                      class="ant-checkbox-inner"
+                    />
+                  </span>
+                </label>
+              </div>
+            </div>
+            <div>
+              <div
+                class="flex justify-between bg-gray-400 p-3 mb-3 rounded-sm"
+              >
+                <div
+                  class="ant-input-number w-full mr-4 rounded-sm"
+                >
+                  <div
+                    class="ant-input-number-handler-wrap"
+                  >
+                    <span
+                      aria-disabled="false"
+                      aria-label="Increase Value"
+                      class="ant-input-number-handler ant-input-number-handler-up"
+                      role="button"
+                      unselectable="on"
+                    >
+                      <span
+                        aria-label="up"
+                        class="anticon anticon-up ant-input-number-handler-up-inner"
+                        role="img"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          data-icon="up"
+                          fill="currentColor"
+                          focusable="false"
+                          height="1em"
+                          viewBox="64 64 896 896"
+                          width="1em"
+                        >
+                          <path
+                            d="M890.5 755.3L537.9 269.2c-12.8-17.6-39-17.6-51.7 0L133.5 755.3A8 8 0 00140 768h75c5.1 0 9.9-2.5 12.9-6.6L512 369.8l284.1 391.6c3 4.1 7.8 6.6 12.9 6.6h75c6.5 0 10.3-7.4 6.5-12.7z"
+                          />
+                        </svg>
+                      </span>
+                    </span>
+                    <span
+                      aria-disabled="false"
+                      aria-label="Decrease Value"
+                      class="ant-input-number-handler ant-input-number-handler-down"
+                      role="button"
+                      unselectable="on"
+                    >
+                      <span
+                        aria-label="down"
+                        class="anticon anticon-down ant-input-number-handler-down-inner"
+                        role="img"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          data-icon="down"
+                          fill="currentColor"
+                          focusable="false"
+                          height="1em"
+                          viewBox="64 64 896 896"
+                          width="1em"
+                        >
+                          <path
+                            d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z"
+                          />
+                        </svg>
+                      </span>
+                    </span>
+                  </div>
+                  <div
+                    class="ant-input-number-input-wrap"
+                  >
+                    <input
+                      aria-valuenow="0"
+                      autocomplete="off"
+                      class="ant-input-number-input"
+                      data-testid="number-input"
+                      placeholder="Masukkan angka"
+                      role="spinbutton"
+                      step="1"
+                      type="number"
+                      value="0"
+                    />
+                  </div>
+                </div>
+                <label
+                  class="ant-checkbox-wrapper h-full"
+                >
+                  <span
+                    class="ant-checkbox"
+                  >
+                    <input
+                      class="ant-checkbox-input"
+                      data-testid="checkbox-input"
+                      type="checkbox"
+                      value=""
+                    />
+                    <span
+                      class="ant-checkbox-inner"
+                    />
+                  </span>
+                </label>
+              </div>
+            </div>
+            <div>
+              <div
+                class="flex justify-between bg-gray-400 p-3 mb-3 rounded-sm"
+              >
+                <div
+                  class="ant-input-number w-full mr-4 rounded-sm"
+                >
+                  <div
+                    class="ant-input-number-handler-wrap"
+                  >
+                    <span
+                      aria-disabled="false"
+                      aria-label="Increase Value"
+                      class="ant-input-number-handler ant-input-number-handler-up"
+                      role="button"
+                      unselectable="on"
+                    >
+                      <span
+                        aria-label="up"
+                        class="anticon anticon-up ant-input-number-handler-up-inner"
+                        role="img"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          data-icon="up"
+                          fill="currentColor"
+                          focusable="false"
+                          height="1em"
+                          viewBox="64 64 896 896"
+                          width="1em"
+                        >
+                          <path
+                            d="M890.5 755.3L537.9 269.2c-12.8-17.6-39-17.6-51.7 0L133.5 755.3A8 8 0 00140 768h75c5.1 0 9.9-2.5 12.9-6.6L512 369.8l284.1 391.6c3 4.1 7.8 6.6 12.9 6.6h75c6.5 0 10.3-7.4 6.5-12.7z"
+                          />
+                        </svg>
+                      </span>
+                    </span>
+                    <span
+                      aria-disabled="false"
+                      aria-label="Decrease Value"
+                      class="ant-input-number-handler ant-input-number-handler-down"
+                      role="button"
+                      unselectable="on"
+                    >
+                      <span
+                        aria-label="down"
+                        class="anticon anticon-down ant-input-number-handler-down-inner"
+                        role="img"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          data-icon="down"
+                          fill="currentColor"
+                          focusable="false"
+                          height="1em"
+                          viewBox="64 64 896 896"
+                          width="1em"
+                        >
+                          <path
+                            d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z"
+                          />
+                        </svg>
+                      </span>
+                    </span>
+                  </div>
+                  <div
+                    class="ant-input-number-input-wrap"
+                  >
+                    <input
+                      aria-valuenow="0"
+                      autocomplete="off"
+                      class="ant-input-number-input"
+                      data-testid="number-input"
+                      placeholder="Masukkan angka"
+                      role="spinbutton"
+                      step="1"
+                      type="number"
+                      value="0"
+                    />
+                  </div>
+                </div>
+                <label
+                  class="ant-checkbox-wrapper h-full"
+                >
+                  <span
+                    class="ant-checkbox"
+                  >
+                    <input
+                      class="ant-checkbox-input"
+                      data-testid="checkbox-input"
+                      type="checkbox"
+                      value=""
+                    />
+                    <span
+                      class="ant-checkbox-inner"
+                    />
+                  </span>
+                </label>
+              </div>
+            </div>
+            <div
+              class="my-4 flex items-center md:justify-center justify-between lg:justify-center pb-4 border-b-2"
+            >
+              <button
+                class="ant-btn ant-btn-primary ant-btn-lg mr-3 bg-blue-400 md:px-6 lg:px-6 px-5 py-4 text-xl flex items-center justify-center"
+                data-testid="add-button"
+                title="Tambah"
+                type="button"
+              >
+                <span>
+                  +
+                </span>
+              </button>
+              <button
+                class="ant-btn ant-btn-primary ant-btn-lg mr-3 bg-blue-400 md:px-6 lg:px-6 px-5 py-4 text-xl flex items-center justify-center"
+                data-testid="substract-button"
+                title="Kurang"
+                type="button"
+              >
+                <span>
+                  -
+                </span>
+              </button>
+              <button
+                class="ant-btn ant-btn-primary ant-btn-lg mr-3 bg-blue-400 md:px-6 lg:px-6 px-5 py-4 text-xl flex items-center justify-center"
+                data-testid="multiply-button"
+                title="Kali"
+                type="button"
+              >
+                <span>
+                  X
+                </span>
+              </button>
+              <button
+                class="ant-btn ant-btn-primary ant-btn-lg mr-3 bg-blue-400 md:px-6 lg:px-6 px-5 py-4 text-xl flex items-center justify-center"
+                data-testid="divide-button"
+                title="Bagi"
+                type="button"
+              >
+                <span>
+                  /
+                </span>
+              </button>
+              <button
+                class="ant-btn ant-btn-primary ant-btn-lg bg-blue-400 md:px-6 lg:px-6 px-5 py-4 text-xl flex items-center justify-center"
+                data-testid="reset-button"
+                title="Reset"
+                type="button"
+              >
+                <span>
+                  C
+                </span>
+              </button>
+            </div>
+            <div
+              class="flex items-center justify-between rounded-md"
+            >
+              <span
+                class="font-bold text-xl"
+              >
+                Hasil : 
+              </span>
+              <span
+                class="font-bold text-xl text-green-600"
+              >
+                0
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="bg-blue-200 flex flex-col items-center justify-center h-screen px-4 md:px-0 lg:px-0"
+    >
+      <div
+        class="w-full lg:w-1/2 rounded-t-md shadow mb-4 bg-white p-4"
+      >
+        <h1
+          class="text-center font-bold text-2xl block"
+        >
+          Calculator App
+        </h1>
+      </div>
+      <div
+        class="ant-card ant-card-bordered w-full lg:w-1/2 rounded-b-md shadow"
+      >
+        <div
+          class="ant-card-body"
+        >
+          <div>
+            <div
+              class="flex justify-between bg-gray-400 p-3 mb-3 rounded-sm"
+            >
+              <div
+                class="ant-input-number w-full mr-4 rounded-sm"
+              >
+                <div
+                  class="ant-input-number-handler-wrap"
+                >
+                  <span
+                    aria-disabled="false"
+                    aria-label="Increase Value"
+                    class="ant-input-number-handler ant-input-number-handler-up"
+                    role="button"
+                    unselectable="on"
+                  >
+                    <span
+                      aria-label="up"
+                      class="anticon anticon-up ant-input-number-handler-up-inner"
+                      role="img"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        data-icon="up"
+                        fill="currentColor"
+                        focusable="false"
+                        height="1em"
+                        viewBox="64 64 896 896"
+                        width="1em"
+                      >
+                        <path
+                          d="M890.5 755.3L537.9 269.2c-12.8-17.6-39-17.6-51.7 0L133.5 755.3A8 8 0 00140 768h75c5.1 0 9.9-2.5 12.9-6.6L512 369.8l284.1 391.6c3 4.1 7.8 6.6 12.9 6.6h75c6.5 0 10.3-7.4 6.5-12.7z"
+                        />
+                      </svg>
+                    </span>
+                  </span>
+                  <span
+                    aria-disabled="false"
+                    aria-label="Decrease Value"
+                    class="ant-input-number-handler ant-input-number-handler-down"
+                    role="button"
+                    unselectable="on"
+                  >
+                    <span
+                      aria-label="down"
+                      class="anticon anticon-down ant-input-number-handler-down-inner"
+                      role="img"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        data-icon="down"
+                        fill="currentColor"
+                        focusable="false"
+                        height="1em"
+                        viewBox="64 64 896 896"
+                        width="1em"
+                      >
+                        <path
+                          d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z"
+                        />
+                      </svg>
+                    </span>
+                  </span>
+                </div>
+                <div
+                  class="ant-input-number-input-wrap"
+                >
+                  <input
+                    aria-valuenow="0"
+                    autocomplete="off"
+                    class="ant-input-number-input"
+                    data-testid="number-input"
+                    placeholder="Masukkan angka"
+                    role="spinbutton"
+                    step="1"
+                    type="number"
+                    value="0"
+                  />
+                </div>
+              </div>
+              <label
+                class="ant-checkbox-wrapper h-full"
+              >
+                <span
+                  class="ant-checkbox"
+                >
+                  <input
+                    class="ant-checkbox-input"
+                    data-testid="checkbox-input"
+                    type="checkbox"
+                    value=""
+                  />
+                  <span
+                    class="ant-checkbox-inner"
+                  />
+                </span>
+              </label>
+            </div>
+          </div>
+          <div>
+            <div
+              class="flex justify-between bg-gray-400 p-3 mb-3 rounded-sm"
+            >
+              <div
+                class="ant-input-number w-full mr-4 rounded-sm"
+              >
+                <div
+                  class="ant-input-number-handler-wrap"
+                >
+                  <span
+                    aria-disabled="false"
+                    aria-label="Increase Value"
+                    class="ant-input-number-handler ant-input-number-handler-up"
+                    role="button"
+                    unselectable="on"
+                  >
+                    <span
+                      aria-label="up"
+                      class="anticon anticon-up ant-input-number-handler-up-inner"
+                      role="img"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        data-icon="up"
+                        fill="currentColor"
+                        focusable="false"
+                        height="1em"
+                        viewBox="64 64 896 896"
+                        width="1em"
+                      >
+                        <path
+                          d="M890.5 755.3L537.9 269.2c-12.8-17.6-39-17.6-51.7 0L133.5 755.3A8 8 0 00140 768h75c5.1 0 9.9-2.5 12.9-6.6L512 369.8l284.1 391.6c3 4.1 7.8 6.6 12.9 6.6h75c6.5 0 10.3-7.4 6.5-12.7z"
+                        />
+                      </svg>
+                    </span>
+                  </span>
+                  <span
+                    aria-disabled="false"
+                    aria-label="Decrease Value"
+                    class="ant-input-number-handler ant-input-number-handler-down"
+                    role="button"
+                    unselectable="on"
+                  >
+                    <span
+                      aria-label="down"
+                      class="anticon anticon-down ant-input-number-handler-down-inner"
+                      role="img"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        data-icon="down"
+                        fill="currentColor"
+                        focusable="false"
+                        height="1em"
+                        viewBox="64 64 896 896"
+                        width="1em"
+                      >
+                        <path
+                          d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z"
+                        />
+                      </svg>
+                    </span>
+                  </span>
+                </div>
+                <div
+                  class="ant-input-number-input-wrap"
+                >
+                  <input
+                    aria-valuenow="0"
+                    autocomplete="off"
+                    class="ant-input-number-input"
+                    data-testid="number-input"
+                    placeholder="Masukkan angka"
+                    role="spinbutton"
+                    step="1"
+                    type="number"
+                    value="0"
+                  />
+                </div>
+              </div>
+              <label
+                class="ant-checkbox-wrapper h-full"
+              >
+                <span
+                  class="ant-checkbox"
+                >
+                  <input
+                    class="ant-checkbox-input"
+                    data-testid="checkbox-input"
+                    type="checkbox"
+                    value=""
+                  />
+                  <span
+                    class="ant-checkbox-inner"
+                  />
+                </span>
+              </label>
+            </div>
+          </div>
+          <div>
+            <div
+              class="flex justify-between bg-gray-400 p-3 mb-3 rounded-sm"
+            >
+              <div
+                class="ant-input-number w-full mr-4 rounded-sm"
+              >
+                <div
+                  class="ant-input-number-handler-wrap"
+                >
+                  <span
+                    aria-disabled="false"
+                    aria-label="Increase Value"
+                    class="ant-input-number-handler ant-input-number-handler-up"
+                    role="button"
+                    unselectable="on"
+                  >
+                    <span
+                      aria-label="up"
+                      class="anticon anticon-up ant-input-number-handler-up-inner"
+                      role="img"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        data-icon="up"
+                        fill="currentColor"
+                        focusable="false"
+                        height="1em"
+                        viewBox="64 64 896 896"
+                        width="1em"
+                      >
+                        <path
+                          d="M890.5 755.3L537.9 269.2c-12.8-17.6-39-17.6-51.7 0L133.5 755.3A8 8 0 00140 768h75c5.1 0 9.9-2.5 12.9-6.6L512 369.8l284.1 391.6c3 4.1 7.8 6.6 12.9 6.6h75c6.5 0 10.3-7.4 6.5-12.7z"
+                        />
+                      </svg>
+                    </span>
+                  </span>
+                  <span
+                    aria-disabled="false"
+                    aria-label="Decrease Value"
+                    class="ant-input-number-handler ant-input-number-handler-down"
+                    role="button"
+                    unselectable="on"
+                  >
+                    <span
+                      aria-label="down"
+                      class="anticon anticon-down ant-input-number-handler-down-inner"
+                      role="img"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        data-icon="down"
+                        fill="currentColor"
+                        focusable="false"
+                        height="1em"
+                        viewBox="64 64 896 896"
+                        width="1em"
+                      >
+                        <path
+                          d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z"
+                        />
+                      </svg>
+                    </span>
+                  </span>
+                </div>
+                <div
+                  class="ant-input-number-input-wrap"
+                >
+                  <input
+                    aria-valuenow="0"
+                    autocomplete="off"
+                    class="ant-input-number-input"
+                    data-testid="number-input"
+                    placeholder="Masukkan angka"
+                    role="spinbutton"
+                    step="1"
+                    type="number"
+                    value="0"
+                  />
+                </div>
+              </div>
+              <label
+                class="ant-checkbox-wrapper h-full"
+              >
+                <span
+                  class="ant-checkbox"
+                >
+                  <input
+                    class="ant-checkbox-input"
+                    data-testid="checkbox-input"
+                    type="checkbox"
+                    value=""
+                  />
+                  <span
+                    class="ant-checkbox-inner"
+                  />
+                </span>
+              </label>
+            </div>
+          </div>
+          <div
+            class="my-4 flex items-center md:justify-center justify-between lg:justify-center pb-4 border-b-2"
+          >
+            <button
+              class="ant-btn ant-btn-primary ant-btn-lg mr-3 bg-blue-400 md:px-6 lg:px-6 px-5 py-4 text-xl flex items-center justify-center"
+              data-testid="add-button"
+              title="Tambah"
+              type="button"
+            >
+              <span>
+                +
+              </span>
+            </button>
+            <button
+              class="ant-btn ant-btn-primary ant-btn-lg mr-3 bg-blue-400 md:px-6 lg:px-6 px-5 py-4 text-xl flex items-center justify-center"
+              data-testid="substract-button"
+              title="Kurang"
+              type="button"
+            >
+              <span>
+                -
+              </span>
+            </button>
+            <button
+              class="ant-btn ant-btn-primary ant-btn-lg mr-3 bg-blue-400 md:px-6 lg:px-6 px-5 py-4 text-xl flex items-center justify-center"
+              data-testid="multiply-button"
+              title="Kali"
+              type="button"
+            >
+              <span>
+                X
+              </span>
+            </button>
+            <button
+              class="ant-btn ant-btn-primary ant-btn-lg mr-3 bg-blue-400 md:px-6 lg:px-6 px-5 py-4 text-xl flex items-center justify-center"
+              data-testid="divide-button"
+              title="Bagi"
+              type="button"
+            >
+              <span>
+                /
+              </span>
+            </button>
+            <button
+              class="ant-btn ant-btn-primary ant-btn-lg bg-blue-400 md:px-6 lg:px-6 px-5 py-4 text-xl flex items-center justify-center"
+              data-testid="reset-button"
+              title="Reset"
+              type="button"
+            >
+              <span>
+                C
+              </span>
+            </button>
+          </div>
+          <div
+            class="flex items-center justify-between rounded-md"
+          >
+            <span
+              class="font-bold text-xl"
+            >
+              Hasil : 
+            </span>
+            <span
+              class="font-bold text-xl text-green-600"
+            >
+              0
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

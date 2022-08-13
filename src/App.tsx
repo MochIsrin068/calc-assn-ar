@@ -1,26 +1,25 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Calculator from "./pages/calculator";
+import useCalculator from "./hooks/useCalculator";
+import "./styles/global.scss";
 
-function App() {
+export default function App() {
+  const {
+    inputValues,
+    onCheckResult,
+    result,
+    onChangeInputChecked,
+    onChangeInputValue,
+  } = useCalculator();
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <main>
+      <Calculator
+        inputValues={inputValues}
+        onCheckResult={onCheckResult}
+        result={result}
+        onChangeInputChecked={onChangeInputChecked}
+        onChangeInputValue={onChangeInputValue}
+      />
+    </main>
   );
 }
-
-export default App;
